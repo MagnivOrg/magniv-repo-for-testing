@@ -1,8 +1,10 @@
 from magniv.core import task
 
+
 @task(schedule="@daily")
 def hello_world():
-	print("Hello world")
+    print("Hello world")
 
-if __name__ == '__main__':
-	hello_world()
+
+if __name__ == "__main__":
+    hello_world()
